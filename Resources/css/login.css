@@ -1,0 +1,263 @@
+/* Above Header */
+.header-container .container-fluid {
+  height: 2.2rem;
+  padding-bottom: 1.2rem;
+  background-color: #1D69C4;
+}
+
+.header-container p {
+  color: white;
+  float: right;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding-right: 1.3rem;
+  line-height: 2.1rem;
+}
+
+.top-nav .container-fluid {
+  overflow: hidden;
+  background-color: white;
+  border-bottom: 1px solid #d0d1cc;
+  -webkit-box-shadow: 0 1px 4px rgba(19, 18, 18, 0.3), 0 0 40px rgba(136, 130, 130, 0.1) inset;
+          box-shadow: 0 1px 4px rgba(19, 18, 18, 0.3), 0 0 40px rgba(136, 130, 130, 0.1) inset;
+  height: 80px;
+  width: 100%;
+}
+
+.top-nav .container-fluid img {
+  padding-top: 0.8rem;
+  padding-left: 1.5rem;
+  width: 8rem;
+  padding-bottom: 0.5rem;
+}
+
+.top-nav .container-fluid p {
+  float: right;
+  padding-top: 1.4rem;
+  padding-right: 38rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #3598dc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  place-content: center;
+  margin-left: 9rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+
+.left {
+  background: white;
+  -webkit-box-shadow: 0 0 10px;
+          box-shadow: 0 0 10px;
+  margin-top: 3.2rem;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 35rem;
+  width: 50%;
+}
+
+.login {
+  font-size: 22px;
+  font-weight: 3rem;
+  text-decoration: underline;
+  margin: 50px 40px 40px;
+  padding-left: 3.6rem;
+}
+
+.eula {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 40px;
+}
+
+.right {
+  background: #1D69C4;
+  margin-top: 2.2rem;
+  color: #F1F1F2;
+  position: relative;
+  width: 34%;
+  height: 37rem;
+  -webkit-box-shadow: 0 0 14px 9px #dedede;
+          box-shadow: 0 0 14px 9px #dedede;
+}
+
+.form {
+  margin: 40px;
+}
+
+.footer {
+  height: 5.2rem;
+  width: auto;
+  border: 1px solid #b4b0b0;
+  -webkit-box-shadow: #d1cccc;
+          box-shadow: #d1cccc;
+  margin-top: 3rem;
+  position: relative;
+  padding: 1rem 1rem;
+  background-color: #beb8b8;
+  padding-top: 2rem;
+}
+
+.footer .footer-left {
+  color: black;
+  font-size: 1rem;
+}
+
+.footer .footer-right {
+  float: right;
+  color: black;
+  margin-top: -1rem;
+  font-size: 1rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e6f7ff;
+  margin-left: 1.8rem;
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #005580;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.formTitle {
+  font-weight: 600;
+  margin-top: 20px;
+  color: #3399FF;
+  text-align: center;
+}
+
+.inputLabel {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 14px;
+  margin-top: 24px;
+}
+
+.inputDiv {
+  width: 72%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.user, .pass, .newpass, .conf {
+  height: 39px;
+  border: none;
+  border-radius: 30px;
+  font-size: 17px;
+  background: #E0E0E0;
+  padding-left: 1.5rem;
+}
+
+.user:hover, .user:focus, .pass:hover, .pass:focus, .newpass:hover, .newpass:focus, .conf:hover, .conf:focus {
+  color: black;
+  background: #fafafa;
+  border-color: black;
+  outline: none;
+}
+
+ul.password_standards {
+  margin-bottom: 0;
+  list-style: square;
+  padding-left: 3rem;
+  font-size: 20px;
+  word-spacing: 0.25rem;
+}
+
+ul.password_standards li {
+  margin: 2.8rem 0;
+}
+
+ul.password_standards li:before {
+  margin: 0 .5em .1em -.85em;
+}
+
+.mandatory {
+  padding-top: 1.5rem;
+  padding-left: 7rem;
+  font-size: 20px;
+}
+
+.buttons {
+  padding-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons .change, .buttons .back, .buttons .clear {
+  color: white;
+  background: #1D69C4;
+  border: none;
+  height: 42px;
+  border-radius: 7px;
+  font-size: 19px;
+}
+
+.buttons .change {
+  width: 30%;
+}
+
+.buttons .back, .buttons .clear {
+  margin-left: -2.2rem;
+  width: 15%;
+}
+/*# sourceMappingURL=login.css.map */
